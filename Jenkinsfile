@@ -7,6 +7,7 @@ pipeline {
             }
             steps {
                 echo "Deploy on dev environment"
+                echo "add feature"
             }
         }
         stage('Deploy to prod') { 
