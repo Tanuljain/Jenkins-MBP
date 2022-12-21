@@ -15,6 +15,7 @@ pipeline {
             }
             steps {
                 echo "Deploy on prod environment"
+                echo "Hotfix"
             }
         }
     }
